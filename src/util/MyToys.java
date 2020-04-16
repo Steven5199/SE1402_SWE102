@@ -27,3 +27,20 @@ public class MyToys {
         return product;
     }
 }
+//mọi đoạn code bạn viết ra, phải cố gắng đảm bảo rằng nó có chất lượng
+//chất lượng nghĩa là: hàm trả về, xử lý đúng như mình dự kiến, kì vọng
+//expected
+//ví dụ tính giai thừa() thì ta đưa vào 5, hi vọng nhận về 120
+//vậy ta phải chuẩn bị bộ dữ liệu để test từng hàm, đảm bảo nó xử lý đúng
+//từng hàm xử lý đúng, class xử lý đúng
+//việc đảm bảo cho từng class/module/từng đơn thể/từng hàm chạy như dự kiến
+//->DEV CÓ TRÁCH NHIỆM VỤ NÀY, VIỆC NÀY SONG SONG VIẾT CODE
+//QUÁ TRÌNH NÀY GỌI LÀ UNIT TESTING
+//làm sao test hàm(), chạy đúng ko
+//ch bị data -> đưa data -> gọi hàm -> nhìn kết quả -> so với dự kiến
+//nhìn kết quả: mắt(nhìn con số trả ra, so với con số mong đợi)
+//              nhìn bằng màu, số trả ra khớp với số mong đợi -> XANH
+//                                      KO KHỚP               -> ĐỎ
+//mắt -> sout, JOptionPane, POPUP, LOG, xem luận anh hùng, luận kết quả
+//màu -> JUnit, TestNG, xUnit, NUnit, CPPUnit, PHPUnit,...
+//      bộ thư viện, .dll, .jar, giúp chúng ta luận theo màu
